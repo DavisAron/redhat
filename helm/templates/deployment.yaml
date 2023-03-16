@@ -40,7 +40,7 @@ spec:
             timeoutSeconds: {{ .Values.probes.readiness.timeoutSeconds }} # the time for timeout
             periodSeconds: {{ .Values.probes.readiness.periodSeconds }} # the abount of time to wait between checks
             successThreshold: {{ .Values.probes.readiness.successThreshold }} # count to decalre seccessfull 
-            failureThreshold: {{ .Values.probes.readiness.successThreshold }} # count to decalre failure  
+            failureThreshold: {{ .Values.probes.readiness.failureThreshold }} # count to decalre failure  
           livenessProbe:
             httpGet:
               path: {{ .Values.probes.liveness.path }}
