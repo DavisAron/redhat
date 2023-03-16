@@ -30,4 +30,4 @@ test: 'Healty'
 github:
   user: 'DavisAron'
   token: empty-pass
-  url: <https://api.github.com/repos/DavisAron/redhat/issues>
+  url: https://api.github.com/repos/DavisAron/redhat/issues
