@@ -9,4 +9,4 @@ spec:
       targetPort: {{ .Values.containers.containerPort }}
   selector:
     app: '{{ .Release.Name }}-1'
-    app: '{{ .Release.Name }}-12'
+    app: '{{ .Release.Name }}-2'
